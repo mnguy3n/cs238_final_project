@@ -30,6 +30,9 @@ class Connect4Board:
     for row in reversed(range(self.NUM_ROWS)):
       print(" ".join([str(cell) for cell in self.board[row]]))
 
+  def valid_action(self, col):
+    return col >= 0 and col < self.NUM_COLS and self.col_height[col] < self.NUM_ROWS
+
   def add_piece(self, player, col):
     if self.col_height[col] == self.NUM_ROWS or col < 0 or col >= self.NUM_COLS:
       return False
@@ -47,11 +50,7 @@ class Connect4Board:
         if col + 3 < self.NUM_COLS and self.board[row][col+1] == player and self.board[row][col+2] == player and self.board[row][col+3] == player or \
            row + 3 < self.NUM_ROWS and self.board[row+1][col] == player and self.board[row+2][col] == player and self.board[row+3][col] == player or \
            row + 3 < self.NUM_ROWS and col + 3 < self.NUM_COLS and self.board[row+1][col+1] == player and self.board[row+2][col+2] == player and self.board[row+3][col+3] == player or \
-           row + 3 < self.NUM_ROWS and col - 3 > 0 and self.board[row+1][col-1] == player and self.board[row+2][col-2] == player and self.board[row+3][col-3] == player:
-          if row + 3 < self.NUM_ROWS and col + 3 < self.NUM_COLS and self.board[row+1][col+1] == player and self.board[row+2][col+2] == player and self.board[row+3][col+3] == player:
-            print("DIAGONAL 1")
-          if row + 3 < self.NUM_ROWS and col - 3 > 0 and self.board[row+1][col-1] == player and self.board[row+2][col-2] == player and self.board[row+3][col-3] == player:
-            print("DIAGONAL 2")
+           row + 3 < self.NUM_ROWS and col - 3 >= 0 and self.board[row+1][col-1] == player and self.board[row+2][col-2] == player and self.board[row+3][col-3] == player:
           return True
     return False
 
