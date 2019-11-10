@@ -1,4 +1,5 @@
 from enum import Enum
+import copy
 
 class Player(Enum):
   NONE = 0
@@ -35,11 +36,14 @@ class Connect4Board:
 
   def add_piece(self, player, col):
     if self.col_height[col] == self.NUM_ROWS or col < 0 or col >= self.NUM_COLS:
-      return False
+      raise Exception("Invalid move:", col)
 
-    self.board[self.col_height[col]][col] = player
-    self.col_height[col] += 1
-    return True
+    updated_board = Connect4Board()
+    updated_board.board = copy.deepcopy(self.board)
+    updated_board.col_height = copy.deepcopy(self.col_height)
+    updated_board.board[updated_board.col_height[col]][col] = player
+    updated_board.col_height[col] += 1
+    return updated_board
 
   def check_win(self, player):
     for row in range(self.NUM_ROWS):
@@ -54,8 +58,11 @@ class Connect4Board:
           return True
     return False
 
+  def check_draw(self):
+    return sum(self.col_height) == self.NUM_ROWS * self.NUM_COLS
+
   def check_game_state(self, player):
-    if sum(self.col_height) == self.NUM_ROWS * self.NUM_COLS:
+    if self.check_draw():
       return GameState.DRAW
     if self.check_win(player):
       if player == Player.PLAYER_1:

@@ -2,6 +2,7 @@ from connect4 import Connect4Board
 from connect4 import GameState
 from connect4 import Player
 from human_agent import HumanAgent
+from minimax_agent import MinimaxAgent
 
 import sys
 
@@ -11,14 +12,16 @@ def run_game(print_board=False):
   curr_player = Player.PLAYER_1
 
   player_1_agent = HumanAgent("Player 1")
-  player_2_agent = HumanAgent("Player 2")
+#  player_2_agent = HumanAgent("Player 2")
+  player_2_agent = MinimaxAgent(Player.PLAYER_2)
   player_map = {Player.PLAYER_1 : player_1_agent, Player.PLAYER_2 : player_2_agent}
 
   while True:
     if print_board:
       game.print_board()
+      print("================================")
 
-    game.add_piece(curr_player, player_map[curr_player].get_action(game))
+    game = game.add_piece(curr_player, player_map[curr_player].get_action(game))
 
     game_state = game.check_game_state(curr_player)
     if game_state == GameState.DRAW:
