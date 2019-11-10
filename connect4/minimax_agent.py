@@ -24,14 +24,14 @@ class MinimaxAgent:
         return 0
       if game.check_win(Player.PLAYER_1):
         if self.player == Player.PLAYER_1:
-          return 1000000
+          return 1000000000
         else:
-          return -1000000
+          return -1000000000
       if game.check_win(Player.PLAYER_2):
         if self.player == Player.PLAYER_2:
-          return 1000000
+          return 1000000000
         else:
-          return -1000000
+          return -1000000000
 
       # end of depth
       if curr_depth == 0:
@@ -52,14 +52,14 @@ class MinimaxAgent:
         return 0
       if game.check_win(Player.PLAYER_1):
         if self.player == Player.PLAYER_1:
-          return 1000000
+          return 1000000000
         else:
-          return -1000000
+          return -1000000000
       if game.check_win(Player.PLAYER_2):
         if self.player == Player.PLAYER_2:
-          return 1000000
+          return 1000000000
         else:
-          return -1000000
+          return -1000000000
 
       # end of depth
       if curr_depth == 0:
@@ -108,6 +108,8 @@ class MinimaxAgent:
       return score
 
     def eval_four_helper(series, agent_player, opp_player):
+      if series.count(agent_player) == 4:
+        return 100000
       if series.count(agent_player) == 3 and series.count(Player.NONE) == 1:
         return 20
       if series.count(agent_player) == 2 and series.count(Player.NONE) == 2:
@@ -116,6 +118,8 @@ class MinimaxAgent:
         return -2
       if series.count(opp_player) == 3 and series.count(Player.NONE) == 1:
         return -10
+      if series.count(opp_player) == 4:
+        return -100000
       return 0
 
     valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
