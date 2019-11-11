@@ -11,9 +11,10 @@ def run_game(print_board=False):
   next_player = {Player.PLAYER_1: Player.PLAYER_2, Player.PLAYER_2: Player.PLAYER_1}
   curr_player = Player.PLAYER_1
 
-  player_1_agent = HumanAgent("Player 1")
-#  player_2_agent = HumanAgent("Player 2")
-  player_2_agent = MinimaxAgent(Player.PLAYER_2)
+  #player_1_agent = HumanAgent("The Human")
+  player_1_agent = MinimaxAgent("The replacement human")
+  #player_2_agent = HumanAgent("Player 2")
+  player_2_agent = MinimaxAgent("The AI")
   player_map = {Player.PLAYER_1 : player_1_agent, Player.PLAYER_2 : player_2_agent}
 
   while True:
@@ -21,7 +22,7 @@ def run_game(print_board=False):
       game.print_board()
       print("================================")
 
-    game = game.add_piece(curr_player, player_map[curr_player].get_action(game))
+    game = game.add_piece(curr_player, player_map[curr_player].get_action(curr_player, game))
 
     game_state = game.check_game_state(curr_player)
     if game_state == GameState.DRAW:

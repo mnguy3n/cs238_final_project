@@ -6,16 +6,18 @@ import numpy as np
 import random
 
 class MinimaxAgent:
+  name = None
   player = None
   depth = None
-  alpha = None
-  beta = None
 
-  def __init__(self, player, depth=3):
-    self.player = player
+  def __init__(self, name, depth=3):
+    self.name = name
     self.depth = depth
 
-  def get_action(self, game):
+  def get_name(self):
+    return self.name
+
+  def get_action(self, player, game):
     next_player = {Player.PLAYER_1 : Player.PLAYER_2, Player.PLAYER_2 : Player.PLAYER_1}
 
     def minimax(game, curr_player, curr_depth):
@@ -23,12 +25,12 @@ class MinimaxAgent:
       if game.check_draw():
         return 0
       if game.check_win(Player.PLAYER_1):
-        if self.player == Player.PLAYER_1:
+        if player == Player.PLAYER_1:
           return 1000000000
         else:
           return -1000000000
       if game.check_win(Player.PLAYER_2):
-        if self.player == Player.PLAYER_2:
+        if player == Player.PLAYER_2:
           return 1000000000
         else:
           return -1000000000
@@ -39,7 +41,7 @@ class MinimaxAgent:
 
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
       # player = agent
-      if curr_player == self.player:
+      if curr_player == player:
         return max([minimax(game.add_piece(curr_player,action), next_player[curr_player], curr_depth) for action in valid_actions])
 
       # player = opponent
@@ -51,12 +53,12 @@ class MinimaxAgent:
       if game.check_draw():
         return 0
       if game.check_win(Player.PLAYER_1):
-        if self.player == Player.PLAYER_1:
+        if player == Player.PLAYER_1:
           return 1000000000
         else:
           return -1000000000
       if game.check_win(Player.PLAYER_2):
-        if self.player == Player.PLAYER_2:
+        if player == Player.PLAYER_2:
           return 1000000000
         else:
           return -1000000000
@@ -67,7 +69,7 @@ class MinimaxAgent:
 
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
       # player = agent
-      if curr_player == self.player:
+      if curr_player == player:
         #return max([minimax(game.add_piece(curr_player,action), next_player[curr_player], curr_depth) for action in valid_actions]) 
         curr_value = float("-inf")
         for action in valid_actions:
@@ -89,22 +91,22 @@ class MinimaxAgent:
         return curr_value
 
     def eval_function(game):
-      opp_player = Player.PLAYER_1 if self.player == Player.PLAYER_2 else Player.PLAYER_2
+      opp_player = Player.PLAYER_1 if player == Player.PLAYER_2 else Player.PLAYER_2
       score = 0
       for row in range(game.NUM_ROWS):
         for col in range(game.NUM_COLS):
           if col + 3 < game.NUM_COLS:
             series = [game.board[row][col+i] for i in range(4)]
-            score += eval_four_helper(series, self.player, opp_player)
+            score += eval_four_helper(series, player, opp_player)
           if row + 3 < game.NUM_ROWS:
             series = [game.board[row+i][col] for i in range(4)]
-            score += eval_four_helper(series, self.player, opp_player)
+            score += eval_four_helper(series, player, opp_player)
           if row + 3 < game.NUM_ROWS and col + 3 < game.NUM_COLS:
             series = [game.board[row+i][col+i] for i in range(4)]
-            score += eval_four_helper(series, self.player, opp_player)
+            score += eval_four_helper(series, player, opp_player)
           if row + 3 < game.NUM_ROWS and col - 3 >= 0:
             series = [game.board[row+i][col-i] for i in range(4)]
-            score += eval_four_helper(series, self.player, opp_player)
+            score += eval_four_helper(series, player, opp_player)
       return score
 
     def eval_four_helper(series, agent_player, opp_player):
@@ -123,8 +125,8 @@ class MinimaxAgent:
       return 0
 
     valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
-    #scores = [minimax(game.add_piece(self.player, action), next_player[self.player], self.depth, float("-inf"), float("inf")) for action in valid_actions]
-    scores = [alpha_beta_minimax(game.add_piece(self.player, action), next_player[self.player], self.depth, float("-inf"), float("inf")) for action in valid_actions]
+    #scores = [minimax(game.add_piece(player, action), next_player[player], self.depth, float("-inf"), float("inf")) for action in valid_actions]
+    scores = [alpha_beta_minimax(game.add_piece(player, action), next_player[player], self.depth, float("-inf"), float("inf")) for action in valid_actions]
     best_score = max(scores)
     best_indeces = [index for index in range(len(scores)) if scores[index] == best_score]
     return valid_actions[random.choice(best_indeces)]
