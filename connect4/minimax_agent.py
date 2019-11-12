@@ -7,7 +7,6 @@ import random
 
 class MinimaxAgent:
   name = None
-  player = None
   depth = None
 
   def __init__(self, name, depth=3):

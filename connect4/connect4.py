@@ -27,6 +27,13 @@ class Connect4Board:
     self.board = [[Player.NONE for col in range(self.NUM_COLS)] for row in range(self.NUM_ROWS)]
     self.col_height = [0 for _ in range(self.NUM_COLS)]
 
+  def serialize_board(self):
+    output = ""
+    for row in range(self.NUM_ROWS):
+      for col in range(self.NUM_COLS):
+        output += str(self.board[row][col])
+    return output
+
   def print_board(self):
     for row in reversed(range(self.NUM_ROWS)):
       print(" ".join([str(cell) for cell in self.board[row]]))

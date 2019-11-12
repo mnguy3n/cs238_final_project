@@ -3,6 +3,7 @@ from connect4 import GameState
 from connect4 import Player
 from human_agent import HumanAgent
 from minimax_agent import MinimaxAgent
+from monte_carlo_tree_search_agent import MCTSAgent
 
 import sys
 
@@ -11,10 +12,11 @@ def run_game(print_board=False):
   next_player = {Player.PLAYER_1: Player.PLAYER_2, Player.PLAYER_2: Player.PLAYER_1}
   curr_player = Player.PLAYER_1
 
-  #player_1_agent = HumanAgent("The Human")
-  player_1_agent = MinimaxAgent("The replacement human")
+  player_1_agent = HumanAgent("The Human")
+  #player_1_agent = MinimaxAgent("The replacement human")
   #player_2_agent = HumanAgent("Player 2")
-  player_2_agent = MinimaxAgent("The AI")
+  #player_2_agent = MinimaxAgent("The AI")
+  player_2_agent = MCTSAgent("The AI")
   player_map = {Player.PLAYER_1 : player_1_agent, Player.PLAYER_2 : player_2_agent}
 
   while True:
