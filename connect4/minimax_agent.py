@@ -8,10 +8,19 @@ import random
 class MinimaxAgent:
   name = None
   depth = None
+  agent_two_val = None
+  agent_three_val = None
+  opp_two_val = None
+  opp_three_val = None
 
-  def __init__(self, name, depth=3):
+  def __init__(self, name, depth=3, agent_two_val=5, agent_three_val=20, opp_two_val=-2, opp_three_val=-10):
     self.name = name
     self.depth = depth
+    self.agent_two_val = agent_two_val
+    self.agent_three_val = agent_three_val
+    self.opp_two_val = opp_two_val
+    self.opp_three_val = opp_three_val
+
 
   def get_name(self):
     return self.name
@@ -112,13 +121,13 @@ class MinimaxAgent:
       if series.count(agent_player) == 4:
         return 100000
       if series.count(agent_player) == 3 and series.count(Player.NONE) == 1:
-        return 20
+        return self.agent_three_val
       if series.count(agent_player) == 2 and series.count(Player.NONE) == 2:
-        return 5
+        return self.agent_two_val
       if series.count(opp_player) == 2 and series.count(Player.NONE) == 2:
-        return -2
+        return self.opp_two_val
       if series.count(opp_player) == 3 and series.count(Player.NONE) == 1:
-        return -10
+        return self.opp_three_val
       if series.count(opp_player) == 4:
         return -100000
       return 0
