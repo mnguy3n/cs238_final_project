@@ -1,0 +1,372 @@
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Draw!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Game 2
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Game 3
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Draw!
+Game 2
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Game 3
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Draw!
+Game 2
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Game 3
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Draw!
+Game 2
+Draw!
+Game 3
+Draw!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 2
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 3
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Draw!
+Game 3
+Draw!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Game 2
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Game 3
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Draw!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Game 2
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Game 3
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Draw!
+Draw!
+Draw!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Game 2
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Game 3
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 2
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 3
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Game 1
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Game 2
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Game 3
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Draw!
+Draw!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Game 1
+Draw!
+Game 2
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Game 3
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Game 1
+Draw!
+Game 2
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 3
+Draw!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Draw!
+Draw!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Game 1
+Draw!
+Game 2
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Game 3
+Draw!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Game 1
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 2
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Game 3
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Game 1
+Draw!
+Game 2
+Draw!
+Game 3
+Draw!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Draw!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Draw!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Game 1
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 2
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Game 3
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Draw!
+Draw!
+Draw!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 VS Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42:
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24 won!
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 VS Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24:
+Game 1
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Game 2
+Draw!
+Game 3
+Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42 won!
+Total score for Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Total wins=17, Total losses=20, Total draws=5
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=0, Losses=3, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=3, Draws=0
+Total score for Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Total wins=15, Total losses=10, Total draws=17
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=0, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=0, Losses=3, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=2, Losses=1, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=1, Losses=1, Draws=4
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=0, Draws=3
+Total score for Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Total wins=20, Total losses=14, Total draws=8
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=3, Losses=0, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=1, Draws=2
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=3, Draws=0
+Total score for Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Total wins=21, Total losses=19, Total draws=2
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=2, Draws=1
+Total score for Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Total wins=18, Total losses=18, Total draws=6
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=1, Losses=2, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=1, Draws=2
+Total score for Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Total wins=18, Total losses=18, Total draws=6
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=2, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=1, Losses=1, Draws=4
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=3, Draws=0
+Total score for Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Total wins=17, Total losses=18, Total draws=7
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=1, Losses=3, Draws=2
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Wins=3, Losses=0, Draws=3
+Total score for Agent_depth=3__AgentThreeVal_54_AgentTwoVal_37_OppThreeVal_-62_OppTwoVal_-14: Total wins=12, Total losses=21, Total draws=9
+Scores against Agent_depth=3__AgentThreeVal_77_AgentTwoVal_67_OppThreeVal_-72_OppTwoVal_-31: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_31_AgentTwoVal_24_OppThreeVal_-90_OppTwoVal_-77: Wins=0, Losses=3, Draws=3
+Scores against Agent_depth=3__AgentThreeVal_79_AgentTwoVal_68_OppThreeVal_-98_OppTwoVal_-84: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_84_AgentTwoVal_32_OppThreeVal_-75_OppTwoVal_-24: Wins=2, Losses=3, Draws=1
+Scores against Agent_depth=3__AgentThreeVal_99_AgentTwoVal_98_OppThreeVal_-68_OppTwoVal_-56: Wins=1, Losses=3, Draws=2
+Scores against Agent_depth=3__AgentThreeVal_78_AgentTwoVal_77_OppThreeVal_-84_OppTwoVal_-50: Wins=3, Losses=3, Draws=0
+Scores against Agent_depth=3__AgentThreeVal_93_AgentTwoVal_11_OppThreeVal_-54_OppTwoVal_-42: Wins=0, Losses=3, Draws=3
