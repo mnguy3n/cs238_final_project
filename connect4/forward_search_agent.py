@@ -47,7 +47,7 @@ class ForwardSearchAgent:
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
       #random.shuffle(valid_actions)
       for action in valid_actions:
-        val = 0
+        val = val_function(game)
         after_move_game = game.add_piece(curr_player, action)
         if after_move_game.check_draw():
           val = 0
@@ -63,8 +63,8 @@ class ForwardSearchAgent:
           best_val = val
           best_action = action
         ####### FOR DEBUGGING
-        if curr_depth == self.depth and curr_player == player:
-          print("For player %s, depth %d, and action %d, value was %.4f" %(str(curr_player), curr_depth, action, val))
+        #if curr_depth == self.depth and curr_player == player:
+        #  print("For player %s, depth %d, and action %d, value was %.4f" %(str(curr_player), curr_depth, action, val))
         #########
       return best_action, best_val
 
