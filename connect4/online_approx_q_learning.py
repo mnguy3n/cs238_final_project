@@ -1,7 +1,7 @@
+from basis_function import basis_vector
 from connect4 import Connect4Board
 from connect4 import GameState
 from connect4 import Player
-from basis_function import basis_vector
 
 import random
 import sys
