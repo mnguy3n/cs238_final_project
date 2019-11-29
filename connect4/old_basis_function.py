@@ -6,7 +6,7 @@ import copy
 import numpy as np
 import random
 
-def basis_vector(game, player):
+def basis_vector_old(game, player):
   opp_player = Player.PLAYER_1 if player == Player.PLAYER_2 else Player.PLAYER_2
   basis_vector = {
     "player_2_out_of_4": 0,
@@ -75,16 +75,27 @@ def basis_vector(game, player):
         series = [game.board[row+i][col-i] for i in range(5)]
         five_series_helper(series, player, opp_player, basis_vector)
 
+  #if not game.check_win(player) and not game.check_win(opp_player):
   for col in range(game.NUM_COLS):
     for row in range(game.col_height[col], game.NUM_ROWS):
-      if check_win_on_position(game, player, row, col):
+      temp_game = copy.deepcopy(game)
+      temp_game.board[row][col] = player
+      if check_win_on_column(temp_game, player, col):
         basis_vector["player_num_possible_wins_in_col_" + str(col)] += 1
-        if row != game.NUM_ROWS-1 and check_win_on_position(game, player, row+1, col):
+        if row != game.NUM_ROWS-1:
+          temp_game.board[row][col] = Player.NONE
+          temp_game.board[row+1][col] = player
+          if check_win_on_column(temp_game, player, col):
             basis_vector["player_num_consecutive_possible_wins_in_col_" + str(col)] += 1
 
-      if check_win_on_position(game, opp_player, row, col):
+      temp_game = copy.deepcopy(game)
+      temp_game.board[row][col] = opp_player
+      if check_win_on_column(temp_game, opp_player, col):
         basis_vector["opponent_num_possible_wins_in_col_" + str(col)] += 1
-        if row != game.NUM_ROWS-1 and check_win_on_position(game, opp_player, row+1, col):
+        if row != game.NUM_ROWS-1:
+          temp_game.board[row][col] = Player.NONE
+          temp_game.board[row+1][col] = opp_player
+          if check_win_on_column(temp_game, opp_player, col):
             basis_vector["opponent_num_consecutive_possible_wins_in_col_" + str(col)] += 1
 
   return basis_vector
@@ -109,24 +120,14 @@ def five_series_helper(series, agent_player, opp_player, basis_vector):
   if series[0] == Player.NONE and series[1] == opp_player and series[2] == opp_player and series[3] == opp_player and series[4] == Player.NONE:
     basis_vector["opponent_3_out_of_5"] += 1
 
-def check_win_on_position(original_game, player, row, col):
-  game = copy.deepcopy(original_game)
-  game.board[row][col] = player
-  if col - 3 >= 0 and game.board[row][col-3] == player and game.board[row][col-2] == player and game.board[row][col-1] == player or \
-     col - 2 >= 0 and col + 1 < game.NUM_COLS and game.board[row][col-2] == player and game.board[row][col-1] == player and game.board[row][col+1] == player or \
-     col - 1 >= 0 and col + 2 < game.NUM_COLS and game.board[row][col-1] == player and game.board[row][col+1] == player and game.board[row][col+2] == player or \
-     col + 3 < game.NUM_COLS and game.board[row][col+1] == player and game.board[row][col+2] == player and game.board[row][col+3] == player or \
-     row - 3 >= 0 and game.board[row-3][col] == player and game.board[row-2][col] == player and game.board[row-1][col] == player or \
-     row - 2 >= 0 and row + 1 < game.NUM_ROWS and game.board[row-2][col] == player and game.board[row-1][col] == player and game.board[row+1][col] == player or \
-     row - 1 >= 0 and row + 2 < game.NUM_ROWS and game.board[row-1][col] == player and game.board[row+1][col] == player and game.board[row+2][col] == player or \
-     row + 3 < game.NUM_ROWS and game.board[row+1][col] == player and game.board[row+2][col] == player and game.board[row+3][col] == player or \
-     row - 3 >= 0 and col - 3 >= 0 and game.board[row-3][col-3] == player and game.board[row-2][col-2] == player and game.board[row-1][col-1] == player or \
-     row - 2 >= 0 and col - 2 >= 0 and row + 1 < game.NUM_ROWS and col + 1 < game.NUM_COLS and game.board[row-2][col-2] == player and game.board[row-1][col-1] == player and game.board[row+1][col+1] == player or \
-     row - 1 >= 0 and col - 1 >= 0 and row + 2 < game.NUM_ROWS and col + 2 < game.NUM_COLS and game.board[row-1][col-1] == player and game.board[row+1][col+1] == player and game.board[row+2][col+2] == player or \
-     row + 3 < game.NUM_ROWS and col + 3 < game.NUM_COLS and game.board[row+1][col+1] == player and game.board[row+2][col+2] == player and game.board[row+3][col+3] == player or \
-     row - 3 >= 0 and col + 3 < game.NUM_COLS and game.board[row-3][col+3] == player and game.board[row-2][col+2] == player and game.board[row-1][col+1] == player or \
-     row - 2 >= 0 and col - 1 >= 0 and row + 1 < game.NUM_ROWS and col + 2 < game.NUM_COLS and game.board[row-2][col+2] == player and game.board[row-1][col+1] == player and game.board[row+1][col-1] == player or \
-     row - 1 >= 0 and col - 2 >= 0 and row + 2 < game.NUM_ROWS and col + 1 < game.NUM_COLS and game.board[row-1][col+1] == player and game.board[row+1][col-1] == player and game.board[row+2][col-2] == player or \
-     row + 3 < game.NUM_ROWS and col - 3 >= 0 and game.board[row+1][col-1] == player and game.board[row+2][col-2] == player and game.board[row+3][col-3] == player:
-    return True
+def check_win_on_column(game, player, col):
+  for row in range(game.NUM_ROWS):
+    if game.board[row][col] != player:
+      continue
+    if col + 3 < game.NUM_COLS and game.board[row][col+1] == player and game.board[row][col+2] == player and game.board[row][col+3] == player or \
+       col - 3 >= 0 and game.board[row][col-1] == player and game.board[row][col-2] == player and game.board[row][col-3] == player or \
+       row + 3 < game.NUM_ROWS and game.board[row+1][col] == player and game.board[row+2][col] == player and game.board[row+3][col] == player or \
+       row + 3 < game.NUM_ROWS and col + 3 < game.NUM_COLS and game.board[row+1][col+1] == player and game.board[row+2][col+2] == player and game.board[row+3][col+3] == player or \
+       row + 3 < game.NUM_ROWS and col - 3 >= 0 and game.board[row+1][col-1] == player and game.board[row+2][col-2] == player and game.board[row+3][col-3] == player:
+      return True
   return False
