@@ -16,8 +16,6 @@ def ingest_data():
   data_100 = pd.read_csv("game_data/episode_data_100.csv")
   data_100_v2 = pd.read_csv("game_data/episode_data_100_v2.csv")
   data_500 = pd.read_csv("game_data/episode_data_500.csv")
-  print("100 episode shape:", data_100.shape)
-  print("500 episode shape:", data_500.shape)
   data = pd.concat([data_20, data_100, data_500], ignore_index=True)
   return data, data_100_v2
 

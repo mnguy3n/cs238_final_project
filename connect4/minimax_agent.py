@@ -13,7 +13,7 @@ class MinimaxAgent:
   opp_two_val = None
   opp_three_val = None
 
-  def __init__(self, name, depth=3, agent_two_val=5, agent_three_val=20, opp_two_val=-2, opp_three_val=-10):
+  def __init__(self, name, depth=3, agent_two_val=60, agent_three_val=80, opp_two_val=-70, opp_three_val=-90):
     self.name = name
     self.depth = depth
     self.agent_two_val = agent_two_val
@@ -78,7 +78,6 @@ class MinimaxAgent:
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
       # player = agent
       if curr_player == player:
-        #return max([minimax(game.add_piece(curr_player,action), next_player[curr_player], curr_depth) for action in valid_actions]) 
         curr_value = float("-inf")
         for action in valid_actions:
           curr_value = max(curr_value, alpha_beta_minimax(game.add_piece(curr_player, action), next_player[curr_player], curr_depth, alpha, beta))
@@ -89,7 +88,6 @@ class MinimaxAgent:
 
       # player = opponent
       else:
-        #return min([minimax(game.add_piece(curr_player,action), next_player[curr_player], curr_depth-1) for action in valid_actions]) 
         curr_value = float("inf")
         for action in valid_actions:
           curr_value = min(curr_value, alpha_beta_minimax(game.add_piece(curr_player, action), next_player[curr_player], curr_depth-1, alpha, beta))

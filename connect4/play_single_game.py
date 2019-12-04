@@ -5,6 +5,7 @@ from forward_search_agent import ForwardSearchAgent
 from human_agent import HumanAgent
 from minimax_agent import MinimaxAgent
 from monte_carlo_tree_search_agent import MCTSAgent
+from q_learning_agent import QLearningAgent
 
 import sys
 
@@ -17,8 +18,9 @@ def run_game(print_board=False):
   #player_1_agent = MinimaxAgent("The replacement human")
   #player_2_agent = HumanAgent("Player 2")
   #player_2_agent = MinimaxAgent("The AI")
-  player_2_agent = ForwardSearchAgent("The AI")
-  #player_2_agent = MCTSAgent("The AI")
+  #player_2_agent = QLearningAgent("The AI", use_offline_params=True)
+  #player_2_agent = ForwardSearchAgent("The AI")
+  player_2_agent = MCTSAgent("The AI")
   player_map = {Player.PLAYER_1 : player_1_agent, Player.PLAYER_2 : player_2_agent}
 
   while True:

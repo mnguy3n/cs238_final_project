@@ -42,8 +42,6 @@ def episode_to_data(player_1_episode, player_2_episode, winner, data_columns, di
   for i in range(num_actions):
     data = data.append(player_1_episode[i], ignore_index=True)
     data = data.append(player_2_episode[i], ignore_index=True)
-    #print("Size of dataframe:", data.size)
-    #print("Shape of dataframe:", data.shape)
   return data
 
 def export_data(data, filename="connect_4_episode_data.csv"):
@@ -92,11 +90,8 @@ def play_games(num_games):
 
     if winner != None:
       episode_data = episode_to_data(player_1_episode, player_2_episode, winner, data_columns)
-      #print("Size of episode data:", episode_data.size)
-      #print("Shape of episode data:", episode_data.shape)
+      print("Shape of episode data:", episode_data.shape)
       data = data.append(episode_data)
-      #print("Size of data:", data.size)
-      #print("Shape of data:", data.shape)
   export_data(data)
 
 if __name__ == "__main__":

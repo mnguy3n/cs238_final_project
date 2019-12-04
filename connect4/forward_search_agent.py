@@ -14,7 +14,7 @@ class ForwardSearchAgent:
   opp_two_val = None
   opp_three_val = None
 
-  def __init__(self, name, depth=2, discount_factor=0.9, agent_two_val=60, agent_three_val=80, opp_two_val=-70, opp_three_val=-90):
+  def __init__(self, name, depth=3, discount_factor=0.9, agent_two_val=60, agent_three_val=80, opp_two_val=-70, opp_three_val=-90):
     self.name = name
     self.depth = depth
     self.discount_factor = discount_factor
@@ -41,11 +41,10 @@ class ForwardSearchAgent:
       if curr_depth == 0:
         return None, 0
 
-      # player = agent
       best_action = None
       best_val = float("-inf") if curr_player == player else float("inf")
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
-      #random.shuffle(valid_actions)
+      random.shuffle(valid_actions)
       for action in valid_actions:
         val = val_function(game)
         after_move_game = game.add_piece(curr_player, action)
@@ -62,10 +61,6 @@ class ForwardSearchAgent:
         if curr_player == player and val > best_val or curr_player == opp_player and val < best_val:
           best_val = val
           best_action = action
-        ####### FOR DEBUGGING
-        #if curr_depth == self.depth and curr_player == player:
-        #  print("For player %s, depth %d, and action %d, value was %.4f" %(str(curr_player), curr_depth, action, val))
-        #########
       return best_action, best_val
 
     def val_function(game):

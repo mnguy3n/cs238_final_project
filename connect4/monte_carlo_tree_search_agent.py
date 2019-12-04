@@ -24,134 +24,89 @@ class MCTSAgent:
   def get_name(self):
     return self.name
 
-  def get_action(self, player, game):
+  def get_action(self, agent_player, game):
     next_player = {Player.PLAYER_1 : Player.PLAYER_2, Player.PLAYER_2 : Player.PLAYER_1}
-    opp_player = Player.PLAYER_1 if player == Player.PLAYER_2 else Player.PLAYER_2
-    Q = {}
-    N = {}
-    T = []
-
-    def eval_four_helper(series, player_one, player_two):
-      if series.count(player_one) == 4:
-        return 100000
-      if series.count(player_one) == 3 and series.count(Player.NONE) == 1:
-        return 20
-      if series.count(player_one) == 2 and series.count(Player.NONE) == 2:
-        return 5
-      if series.count(player_two) == 2 and series.count(Player.NONE) == 2:
-        return -2
-      if series.count(player_two) == 3 and series.count(Player.NONE) == 1:
-        return -10
-      if series.count(player_two) == 4:
-        return -100000
-      return 0
-
-    def heuristic_reward(game, player_one, player_two):
-      score = 0
-      for row in range(game.NUM_ROWS):
-        for col in range(game.NUM_COLS):
-          if col + 3 < game.NUM_COLS:
-            series = [game.board[row][col+i] for i in range(4)]
-            score += eval_four_helper(series, player_one, player_two)
-          if row + 3 < game.NUM_ROWS:
-            series = [game.board[row+i][col] for i in range(4)]
-            score += eval_four_helper(series, player_one, player_two)
-          if row + 3 < game.NUM_ROWS and col + 3 < game.NUM_COLS:
-            series = [game.board[row+i][col+i] for i in range(4)]
-            score += eval_four_helper(series, player_one, player_two)
-          if row + 3 < game.NUM_ROWS and col - 3 >= 0:
-            series = [game.board[row+i][col-i] for i in range(4)]
-            score += eval_four_helper(series, player_one, player_two)
-      return score
-
-
-    def generative_model(game):
-      # terminal state after agent move
-      if game.check_draw():
-        return game, 0, True
-      if game.check_win(player):
-        return game, 1, True
-
-      # opponent plays move based on best heuristic
-      valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
-      random.shuffle(valid_actions)
-      best_val = float("-inf")
-      best_action = None
-      for action in valid_actions:
-        val = heuristic_reward(game.add_piece(opp_player, action), opp_player, player)
-        if val > best_val:
-          best_val = val
-          best_action = action
-      next_game = game.add_piece(opp_player, best_action)
-
-      # terminal state after opponent move
-      if next_game.check_draw():
-        return next_game, 0, True
-      if next_game.check_win(opp_player):
-        return next_game, -1, True
-      return next_game, 0, False
+    opp_player = Player.PLAYER_1 if agent_player == Player.PLAYER_2 else Player.PLAYER_2
+    Q = {agent_player: {}, opp_player: {}}
+    N = {agent_player: {}, opp_player: {}}
+    T = {agent_player: [], opp_player: []}
 
     def random_policy(game):
       valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
       return random.choice(valid_actions)
 
-    def rollout(player, game, depth):
+    def random_rollout(curr_player, my_player, other_player, game, depth):
       if depth == 0:
         return 0
 
       action = random_policy(game)
-      next_game, reward, game_end = generative_model(game.add_piece(player, action))
-      if game_end:
-        return reward
-      return reward + self.discount_factor * rollout(player, next_game, depth-1)
+      next_game = game.add_piece(curr_player, action)
 
-    def simulate(player, game, depth):
+      # terminal state
+      if next_game.check_draw():
+        return 0
+      if next_game.check_win(my_player):
+        return 1
+      if next_game.check_win(other_player):
+        return -1
+      return self.discount_factor * rollout(next_player[curr_player], my_player, other_player, next_game, depth-1 if curr_player == opp_player else depth)
+
+    def rollout(curr_player, my_player, other_player, game, depth):
+      return random_rollout(curr_player, my_player, other_player, game, depth)
+
+    def simulate(curr_player, game, depth):
       if depth == 0:
         return 0
 
       state = game.serialize_board()
-      if not state in T:
+      if not state in T[curr_player]:
         # Expansion
-        Q[state] = {}
-        N[state] = {}
+        Q[curr_player][state] = {}
+        N[curr_player][state] = {}
         valid_actions = [action for action in range(game.NUM_COLS) if game.valid_action(action)]
         for action in valid_actions:
-          Q[state][action] = 0
-          N[state][action] = 0
-        T.append(state) # Add leaf node to tree
-        return rollout(player, game, depth)
+          Q[curr_player][state][action] = 0
+          N[curr_player][state][action] = 0
+        T[curr_player].append(state) # Add leaf node to tree
+        return rollout(curr_player, curr_player, next_player[curr_player], game, depth)
 
       best_Q = float("-inf")
       best_action = None
-      for action in random.sample(Q[state].keys(), len(Q[state])):
-        if N[state][action] == 0 or sum(N[state]) == 0:
+      valid_actions = random.sample(Q[curr_player][state].keys(), len(Q[curr_player][state].keys()))
+      for action in valid_actions:
+        if N[curr_player][state][action] == 0 or sum(N[curr_player][state]) == 0:
           curr_Q = float("inf")
         else:
-          curr_Q = Q[state][action] + self.exploration_c * math.sqrt(math.log(sum(N[state])) / N[state][action])
+          curr_Q = Q[curr_player][state][action] + self.exploration_c * math.sqrt(math.log(sum(N[curr_player][state])) / N[curr_player][state][action])
         if best_Q < curr_Q:
           best_Q = curr_Q
           best_action = action
 
-      next_game, reward, game_end = generative_model(game.add_piece(player, best_action))
-      if game_end:
-        q = reward
+      next_game = game.add_piece(curr_player, best_action)
+      # terminal state
+      if next_game.check_draw():
+        q = 0
+      elif next_game.check_win(curr_player):
+        q = 1
+      elif next_game.check_win(next_player[curr_player]):
+        q = -1
       else:
-        q = reward + self.discount_factor * simulate(player, next_game, depth-1)
-      N[state][best_action] += 1
-      Q[state][best_action] += (q - Q[state][best_action]) / N[state][best_action] # Running average
+        reward = 0
+        q = reward - self.discount_factor * simulate(next_player[curr_player], next_game, depth-1 if curr_player == opp_player else depth)
+      N[curr_player][state][best_action] += 1
+      Q[curr_player][state][best_action] += (q - Q[curr_player][state][best_action]) / N[curr_player][state][best_action] # Running average
       return q
 
     # Update Q and N
     for i in range(self.num_iterations): #main loop
-      simulate(player, game, self.depth)
-      #print("Q-function:", Q[game.serialize_board()]) #+++
+      simulate(agent_player, game, self.depth)
 
     # Choosing best action
     state = game.serialize_board()
     best_Q = float("-inf")
     best_action = None
-    for action in random.sample(Q[state].keys(), len(Q[state])):
-      if Q[state][action] > best_Q:
-        best_Q = Q[state][action]
+    for action in random.sample(Q[agent_player][state].keys(), len(Q[agent_player][state])):
+      if Q[agent_player][state][action] > best_Q:
+        best_Q = Q[agent_player][state][action]
         best_action = action
     return best_action
